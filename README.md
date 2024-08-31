@@ -1,7 +1,7 @@
 # Convolution-in-FPGA-Simulated-SystemVerilog
 
 ## Overview
-This project implements circular convolution for finite-length sequences using SystemVerilog. Circular convolution is an optimized method of performing convolution on periodic arrays or signals, making it especially efficient for certain signal processing tasks. Leveraging hardware-level parallelism, and properties of periodic signal (specially shifting) the provided code generate convoluted data
+This project implements circular convolution for finite-length sequences. Circular convolution is an optimized method of performing convolution on periodic arrays or signals, making it especially efficient for certain signal processing tasks. Using hardware-level parallelism, and properties of periodic signal (specially properties of shifting) the provided code generate convoluted data
 
 ## Features
 - **Efficient Convolution**: The implementation focuses on optimizing both silicon area and computational efficiency.
